@@ -1,0 +1,37 @@
+name: Daglig statusuppdatering
+
+on:
+  schedule:
+    # Kör kl 05:00 UTC = 07:00 CEST (sommartid)
+    - cron: "0 5 * * *"
+  workflow_dispatch: # Gör det möjligt att köra manuellt från GitHub
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Hämta kod
+        uses: actions/checkout@v4
+
+      - name: Sätt upp Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Kör statusuppdatering
+        run: node scripts/update-status.mjs
+
+      - name: Committa och pusha om det finns ändringar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/courses.json
+          if git diff --cached --quiet; then
+            echo "Inga ändringar – hoppar över commit."
+          else
+            git commit -m "chore: uppdatera banstatus $(date +%Y-%m-%d)"
+            git push
+          fi
