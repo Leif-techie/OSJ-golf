@@ -59,7 +59,7 @@
       "id": 2,
       "name": "Fogdö GK",
       "area": "Strängnäs",
-      "open": true,
+      "open": false,
       "golfamore": false,
       "golfamoreVillkor": null,
       "holes": "18",
@@ -85,7 +85,7 @@
       "id": 4,
       "name": "Strand Golf",
       "area": "Strängnäs",
-      "open": true,
+      "open": false,
       "golfamore": false,
       "golfamoreVillkor": null,
       "holes": "18",
@@ -111,7 +111,7 @@
       "id": 6,
       "name": "Solbacka GK",
       "area": "Stjärnhov",
-      "open": true,
+      "open": false,
       "golfamore": true,
       "golfamoreVillkor": "Alla dagar",
       "holes": "18",
@@ -124,7 +124,7 @@
       "id": 7,
       "name": "Åda Golf & CC",
       "area": "Nyköping",
-      "open": true,
+      "open": false,
       "golfamore": false,
       "golfamoreVillkor": null,
       "holes": "18",
@@ -137,7 +137,7 @@
       "id": 8,
       "name": "Jönåkers GK",
       "area": "Gnesta",
-      "open": true,
+      "open": false,
       "golfamore": true,
       "golfamoreVillkor": "Alla dagar",
       "holes": "18",
@@ -150,7 +150,7 @@
       "id": 9,
       "name": "Norrby Golf",
       "area": "Nyköping",
-      "open": true,
+      "open": false,
       "golfamore": false,
       "golfamoreVillkor": null,
       "holes": "18",
@@ -163,7 +163,7 @@
       "id": 10,
       "name": "Kiladalens GK",
       "area": "Södertälje",
-      "open": true,
+      "open": false,
       "golfamore": true,
       "golfamoreVillkor": "Alla dagar",
       "holes": "18",
@@ -215,7 +215,11 @@
       "id": 14,
       "name": "Mälarö GK",
       "area": "Ekerö",
+<<<<<<< HEAD
       "open": true,
+=======
+      "open": false,
+>>>>>>> 668cb78839c49b58bcc4c57f30c3b106cb66a372
       "golfamore": false,
       "golfamoreVillkor": null,
       "holes": "9+18",
@@ -228,7 +232,11 @@
       "id": 15,
       "name": "Ängsö GK",
       "area": "Västerås",
+<<<<<<< HEAD
       "open": true,
+=======
+      "open": false,
+>>>>>>> 668cb78839c49b58bcc4c57f30c3b106cb66a372
       "golfamore": true,
       "golfamoreVillkor": "Helgfria vardagar",
       "holes": "18",
@@ -241,7 +249,7 @@
       "id": 16,
       "name": "Flens GK",
       "area": "Flen",
-      "open": true,
+      "open": false,
       "golfamore": true,
       "golfamoreVillkor": "Helgfria vardagar",
       "holes": "18",
@@ -267,7 +275,7 @@
       "id": 18,
       "name": "Orresta GK",
       "area": "Västerås",
-      "open": true,
+      "open": false,
       "golfamore": true,
       "golfamoreVillkor": "Helgfria vardagar",
       "holes": "18",
@@ -332,7 +340,7 @@
       "id": 23,
       "name": "Skerike GK",
       "area": "Västerås",
-      "open": true,
+      "open": false,
       "golfamore": true,
       "golfamoreVillkor": "Alla dagar",
       "holes": "9+18",
@@ -345,7 +353,7 @@
       "id": 24,
       "name": "Friiberghs GK",
       "area": "Uppsala",
-      "open": true,
+      "open": false,
       "golfamore": true,
       "golfamoreVillkor": "Alla dagar",
       "holes": "18",
@@ -384,7 +392,11 @@
       "id": 27,
       "name": "Johannesberg GK",
       "area": "Uppsala",
+<<<<<<< HEAD
       "open": true,
+=======
+      "open": false,
+>>>>>>> 668cb78839c49b58bcc4c57f30c3b106cb66a372
       "golfamore": true,
       "golfamoreVillkor": "Helgfria vardagar",
       "holes": "9+18",
@@ -436,7 +448,11 @@
       "id": 31,
       "name": "Sigtuna GK",
       "area": "Sigtuna",
+<<<<<<< HEAD
       "open": true,
+=======
+      "open": false,
+>>>>>>> 668cb78839c49b58bcc4c57f30c3b106cb66a372
       "golfamore": true,
       "golfamoreVillkor": "Helgfria vardagar",
       "holes": "18",
@@ -449,7 +465,7 @@
       "id": 32,
       "name": "Katrineholms GK",
       "area": "Katrineholm",
-      "open": true,
+      "open": false,
       "golfamore": false,
       "golfamoreVillkor": null,
       "holes": "9+18",
@@ -462,7 +478,7 @@
       "id": 33,
       "name": "Vingåkers GK",
       "area": "Vingåker",
-      "open": true,
+      "open": false,
       "golfamore": true,
       "golfamoreVillkor": "Helgfria vardagar",
       "holes": "18",
@@ -488,7 +504,11 @@
       "id": 35,
       "name": "Vassunda GK",
       "area": "Uppsala",
+<<<<<<< HEAD
       "open": true,
+=======
+      "open": false,
+>>>>>>> 668cb78839c49b58bcc4c57f30c3b106cb66a372
       "golfamore": true,
       "golfamoreVillkor": "Alla dagar",
       "holes": "18",
@@ -501,7 +521,11 @@
       "id": 36,
       "name": "Wattholma GK",
       "area": "Uppsala",
+<<<<<<< HEAD
       "open": true,
+=======
+      "open": false,
+>>>>>>> 668cb78839c49b58bcc4c57f30c3b106cb66a372
       "golfamore": true,
       "golfamoreVillkor": "Alla dagar",
       "holes": "18",
